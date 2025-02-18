@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapi.Health-Clinic_Tarde</name>
+    </assembly>
+    <members>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ClinicaController.Post(webapi.Health_Clinic_Tarde.Domains.Clinica)">
+            <summary>
+            Cadastra uma clinica
+            </summary>
+            <param name="clinica">Nome da Clinica</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ClinicaController.Get">
+            <summary>
+            Lista todas as Clinica existentes
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ClinicaController.Delete(System.Guid)">
+            <summary>
+            Deleta uma Clinica pelo Id
+            </summary>
+            <param name="id">Id da Clinica</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ComentarioController.Post(webapi.Health_Clinic_Tarde.Domains.Comentario)">
+            <summary>
+            Cadastra um Comentario
+            </summary>
+            <param name="comentario">Descrição do Comentario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ComentarioController.Get">
+            <summary>
+            Lista todos os Comentarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ComentarioController.Delete(System.Guid)">
+            <summary>
+            Deleta um comentario através do Id
+            </summary>
+            <param name="id">Id do comentarios</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ConsultaController.Post(webapi.Health_Clinic_Tarde.Domains.Consulta)">
+            <summary>
+            Cadastra uma consulta
+            </summary>
+            <param name="consulta">Nome da consulta</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ConsultaController.Get">
+            <summary>
+            Lista todas as consultas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.ConsultaController.Delete(System.Guid)">
+            <summary>
+            Deleta uma consultaa através do Id
+            </summary>
+            <param name="id">Id do Delete</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.EspecialidadeController.Post(webapi.Health_Clinic_Tarde.Domains.Especialidade)">
+            <summary>
+            Cadastra uma especialidade 
+            </summary>
+            <param name="especialidade">Nome da especialidade</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.EspecialidadeController.Get">
+            <summary>
+            Lista todas as especialidades
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.EspecialidadeController.Delete(System.Guid)">
+            <summary>
+            Deleta uma especialidade através do Id
+            </summary>
+            <param name="id">Nome da especialidade</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.LoginController.Login(webapi.Health_Clinic_Tarde.ViewModel.LoginViewModel)">
+            <summary>
+            Busca por Email e Senha do Usuario, e abaixo tem a configuração do Token
+            </summary>
+            <param name="usuario">Nome do Usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.MedicoController.Post(webapi.Health_Clinic_Tarde.Domains.Medico)">
+            <summary>
+            Cadastra um nome de Médico
+            </summary>
+            <param name="medico">Nome do Médico</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.MedicoController.Get">
+            <summary>
+            Lista todos os médico
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.MedicoController.GetQuery">
+            <summary>
+            Lista todas as consultas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.MedicoController.Delete(System.Guid)">
+            <summary>
+            Deleta os Médicos pelo Id
+            </summary>
+            <param name="id">Nome do Medico</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.PacienteController.Post(webapi.Health_Clinic_Tarde.Domains.Paciente)">
+            <summary>
+            Cadastra um Usuario
+            </summary>
+            <param name="paciente">Nome do Usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.PacienteController.Get">
+            <summary>
+            Lista os Usuarios 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.PacienteController.Delete(System.Guid)">
+            <summary>
+            Deleta os Usuarios pelo Id
+            </summary>
+            <param name="id">Nome do Usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.PacienteController.GetQuery">
+            <summary>
+            Lista as consultas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.TipoUsuarioController.Post(webapi.Health_Clinic_Tarde.Domains.TipoUsuario)">
+            <summary>
+            Cadastra um TipoUsuario
+            </summary>
+            <param name="tipoUsuario">Nome do TipoUsuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.TipoUsuarioController.Delete(System.Guid)">
+            <summary>
+            Deleta um TipoUsuario pelo Id
+            </summary>
+            <param name="id">Nome do TipoUsuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.TipoUsuarioController.BuscarPorId(System.Guid)">
+            <summary>
+            Lista um TipoUsuario pelo Id
+            </summary>
+            <param name="id">Nome do TipoUsuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.TipoUsuarioController.Get">
+            <summary>
+            Lista todos os TipoUsuario
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.TipoUsuarioController.Atualizar(System.Guid,webapi.Health_Clinic_Tarde.Domains.TipoUsuario)">
+            <summary>
+            Atualiza um TipoUsuario pelo Id
+            </summary>
+            <param name="id"></param>
+            <param name="tipoUsuario">Nome do TipoUsuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.UsuarioController.Post(webapi.Health_Clinic_Tarde.Domains.Usuario)">
+            <summary>
+            Cadastra um Usuario
+            </summary>
+            <param name="usuario">Nome do Usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.UsuarioController.Get(System.String,System.String)">
+            <summary>
+            Lista Email e Senha do Usuario pelo Id
+            </summary>
+            <param name="email">Email</param>
+            <param name="senha">Senha</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Controllers.UsuarioController.Get">
+            <summary>
+            Lista todos os Usuario
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.Health_Clinic_Tarde.Migrations.healthclinic">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Migrations.healthclinic.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Migrations.healthclinic.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi.Health_Clinic_Tarde.Migrations.healthclinic.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
