@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\Desktop\\2023_2S\\Sprint-2-api\\webapi.Health-Clinic_Tarde\\webapi.Health-Clinic_Tarde.csproj": {}
+    "C:\\Users\\thiag\\Desktop\\Health-Clinic\\webapi.Health-Clinic_Tarde.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\Desktop\\2023_2S\\Sprint-2-api\\webapi.Health-Clinic_Tarde\\webapi.Health-Clinic_Tarde.csproj": {
+    "C:\\Users\\thiag\\Desktop\\Health-Clinic\\webapi.Health-Clinic_Tarde.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\2023_2S\\Sprint-2-api\\webapi.Health-Clinic_Tarde\\webapi.Health-Clinic_Tarde.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\Health-Clinic\\webapi.Health-Clinic_Tarde.csproj",
         "projectName": "webapi.Health-Clinic_Tarde",
-        "projectPath": "C:\\Users\\thiag\\Desktop\\2023_2S\\Sprint-2-api\\webapi.Health-Clinic_Tarde\\webapi.Health-Clinic_Tarde.csproj",
+        "projectPath": "C:\\Users\\thiag\\Desktop\\Health-Clinic\\webapi.Health-Clinic_Tarde.csproj",
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Desktop\\2023_2S\\Sprint-2-api\\webapi.Health-Clinic_Tarde\\obj\\",
+        "outputPath": "C:\\Users\\thiag\\Desktop\\Health-Clinic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
             },
             "ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -84,11 +84,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[7.2.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.5.0, )"
             }
           },
           "imports": [
