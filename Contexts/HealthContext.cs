@@ -32,9 +32,7 @@ namespace webapi.Health_Clinic_Tarde.Contexts
             //optionsBuilder.UseSqlServer("Data Source=DESKTOP-O6K5SUM; initial catalog= webapi.Health-Clinic_Tarde; User Id = sa; Pwd = Senai@134; TrustServerCertificate=true;", x => x.UseDateOnlyTimeOnly());
             //base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-O6K5SUM; Initial Catalog=webapi.Health-Clinic_Tarde; Trusted_Connection=True; TrustServerCertificate=True;", x => x.UseDateOnlyTimeOnly());
-            base.OnConfiguring(optionsBuilder);
-
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-O6K5SUM; Initial Catalog=webapi.Health-Clinic_Tarde; User Id=sa; Password=ThiagoDev; Encrypt=True; TrustServerCertificate=True;", x => x.UseDateOnlyTimeOnly());
         }
 
     }
