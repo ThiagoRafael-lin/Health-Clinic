@@ -45,8 +45,8 @@ Siga os passos abaixo para clonar e executar o projeto localmente:
 Pré-requisitos
 Certifique-se de ter as seguintes ferramentas instaladas:
 
-.NET SDK (Versão X.X - adicione a versão)
+- .NET SDK (Versão X.X - adicione a versão)
 
-Um IDE de desenvolvimento (Visual Studio ou VS Code)
+- Um IDE de desenvolvimento (Visual Studio ou VS Code)
 
-SQL Server (ou outro SGBD configurado)
+- SQL Server (ou outro SGBD configurado)
