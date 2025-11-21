@@ -8,17 +8,15 @@ Esta API foi desenvolvida seguindo os princípios de arquitetura RESTful, fornec
 ## 🛠️ Tecnologias Utilizadas
 Este projeto foi construído utilizando as seguintes tecnologias e frameworks:
 
-Back-end
-Linguagem: C#
+- Back-end Linguagem: C#
 
-Framework: ASP.NET Core (Versão X.X - adicione a versão)
+- Framework: ASP.NET Core (Versão X.X - adicione a versão)
 
-Mapeamento Objeto-Relacional (ORM): Entity Framework Core
+- Mapeamento Objeto-Relacional (ORM): Entity Framework Core
 
-Autenticação: JWT (JSON Web Tokens)
+- Autenticação: JWT (JSON Web Tokens)
 
-Banco de Dados
-SGBD: SQL Server (ou MySQL/SQLite, ajuste conforme o que você usou)
+- Banco de Dados SGBD: SQL Server (ou MySQL/SQLite, ajuste conforme o que você usou)
 
 
 ## 🔑 Funcionalidades (Endpoints Principais)
@@ -26,19 +24,19 @@ A API oferece funcionalidades essenciais para um sistema de clínica:
 
 Autenticação/Autorização:
 
-/api/Login: Autenticação de usuários e geração de JWT.
+- /api/Login: Autenticação de usuários e geração de JWT.
 
 Gestão de Usuários (CRUD):
 
-Criação, leitura, atualização e exclusão de Médicos e Pacientes.
+- Criação, leitura, atualização e exclusão de Médicos e Pacientes.
 
-Agendamentos:
+ Agendamentos:
 
-Criação e consulta de agendamentos por Médicos e Pacientes.
+- Criação e consulta de agendamentos por Médicos e Pacientes.
 
 Especialidades:
 
-Cadastro e listagem de especialidades médicas.
+- Cadastro e listagem de especialidades médicas.
 
 
 ## 🚀 Como Executar o Projeto
